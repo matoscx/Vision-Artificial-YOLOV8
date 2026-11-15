@@ -2,16 +2,16 @@
 
 > *Implementación eficiente de Deep Learning para la identificación y etiquetado preciso de objetos en entornos dinámicos.*
 
-Este repositorio contiene un script en Python diseñado para realizar **detección de objetos en tiempo real** utilizando la potencia del modelo **YOLOv8 nano** de Ultralytics en conjunto con **OpenCV**. El sistema procesa *streams* de video desde la cámara web, aplicando filtros de confianza y traducción dinámica de etiquetas para ofrecer una visualización fluida, limpia y en español[cite: 9].
+Este repositorio contiene un script en Python diseñado para realizar **detección de objetos en tiempo real** utilizando la potencia del modelo **YOLOv8 nano** de Ultralytics en conjunto con **OpenCV**. El sistema procesa *streams* de video desde la cámara web, aplicando filtros de confianza y traducción dinámica de etiquetas para ofrecer una visualización fluida, limpia y en español.
 
 ---
 
 ## 🚀 Características Principales
 
-* **Procesamiento Eficiente:** Aprovecha el parámetro `stream=True` de YOLOv8 para optimizar el rendimiento y garantizar una tasa de cuadros por segundo (*FPS*) fluida durante la ejecución[cite: 9].
-* **Filtro de Confianza Adaptativo:** Configurado con un umbral estricto (`conf > 0.55`) para asegurar que solo se dibujen detecciones con alta certeza estadística[cite: 9].
-* **Diccionario de Traducción Local:** Traduce automáticamente las clases detectadas al español (*Cell phone* ➔ *Celular*, *Bottle* ➔ *Botella*, etc.) para mejorar la accesibilidad y presentación de los resultados[cite: 9].
-* **Interfaz Visual Optimizada:** Incorpora renderizado con rectángulos en color cian y fondos de contraste sólido en las etiquetas flotantes para facilitar la lectura sobre cualquier fondo de video[cite: 9].
+* **Procesamiento Eficiente:** Aprovecha el parámetro `stream=True` de YOLOv8 para optimizar el rendimiento y garantizar una tasa de cuadros por segundo (*FPS*) fluida durante la ejecución.
+* **Filtro de Confianza Adaptativo:** Configurado con un umbral estricto (`conf > 0.55`) para asegurar que solo se dibujen detecciones con alta certeza estadística.
+* **Diccionario de Traducción Local:** Traduce automáticamente las clases detectadas al español (*Cell phone* ➔ *Celular*, *Bottle* ➔ *Botella*, etc.) para mejorar la accesibilidad y presentación de los resultados.
+* **Interfaz Visual Optimizada:** Incorpora renderizado con rectángulos en color cian y fondos de contraste sólido en las etiquetas flotantes para facilitar la lectura sobre cualquier fondo de video.
 
 ---
 
